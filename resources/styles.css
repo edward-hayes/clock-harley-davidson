@@ -1,0 +1,12 @@
+#main {
+  viewport-fill: #36454F;
+}
+
+#hd-outline {
+  x:5%;
+  y: 16%;
+  fill: orangered;
+  width: 90%;
+  height: 68%;
+  opacity: .8;
+}
