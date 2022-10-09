@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "5ecb9521-4d20-46fa-bddc-30d1d8792874",
+    "appType": "app",
+    "appDisplayName": "Harley Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Harley Clock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
