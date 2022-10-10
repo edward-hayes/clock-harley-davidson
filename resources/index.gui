@@ -1,3 +1,237 @@
 <svg id="main">
+  <image id="flame" href="flame2.png" />
   <image id="hd-outline" href="harley_outline.png"/>
+  <image id="name" href="harley_name.png" />
+  
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="10" class="watch-hand" width="4" height="102" fill="white" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-3" y="10" class="watch-hand" width="6" height="70" fill="white" />
+  </g>
+  
+  <g id="tick1" transform="translate(50%,50%) rotate(210)">
+    <rect class="minor-tick"/>
+  </g>
+  <g id="tick2" transform="translate(50%,50%) rotate(240)">
+    <rect class="minor-tick"/>
+  </g>
+  <g id="tick3" transform="translate(50%,50%) rotate(270)">
+    <rect class="major-tick"/>
+  </g>
+  <g id="tick4" transform="translate(50%,50%) rotate(300)">
+    <rect class="minor-tick"/>
+  </g>
+  <g id="tick5" transform="translate(50%,50%) rotate(330)">
+    <rect class="minor-tick"/>
+  </g>
+  <g id="tick6" pointer-events="visible" transform="translate(50%,50%)">
+    <rect class="major-tick"/>
+  </g>
+  <g id="tick7" transform="translate(50%,50%) rotate(30)">
+    <rect class="minor-tick"/>
+  </g>
+  <g id="tick8" transform="translate(50%,50%) rotate(60)">
+    <rect class="minor-tick"/>
+  </g>
+  <g id="tick9" pointer-events="visible" transform="translate(50%,50%) rotate(90)">
+    <rect class="major-tick"/>
+  </g>
+  <g id="tick10" transform="translate(50%,50%) rotate(120)">
+    <rect class="minor-tick"/>
+  </g>
+  <g id="tick11" transform="translate(50%,50%) rotate(150)">
+    <rect class="minor-tick"/>
+  </g>
+  <g id="tick12" pointer-events="visible" transform="translate(50%,50%) rotate(180)">
+    <rect class="major-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(186)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(192)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(198)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(204)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(216)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(222)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(228)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(234)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(246)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(252)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(258)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(264)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(276)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(282)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(288)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(294)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(306)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(312)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(318)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(324)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(336)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(342)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(348)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(354)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(6)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(12)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(18)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(24)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(36)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(42)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(48)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(54)">
+    <rect class="min-tick"/>
+  </g>
+
+  <g transform="translate(50%,50%) rotate(66)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(72)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(78)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(84)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(96)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(102)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(108)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(114)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(126)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(132)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(138)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(144)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(156)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(162)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(168)">
+    <rect class="min-tick"/>
+  </g>
+  <g transform="translate(50%,50%) rotate(174)">
+    <rect class="min-tick"/>
+  </g>
+  
+  <g transform="translate(50%,50%) rotate(34)">
+    <image id="distance" href="distance2.png" />
+  </g>
+  <g transform="translate(50%,50%) rotate(320)">
+    <image id="fuel" href="fuel2.png" />
+  </g>
+  
+  <section id="battery">
+    <image href="battery_full.png" class="battery-icon background" />
+    <image href="battery_20.png" class="battery-icon" />
+    <section id="battery_percentage">
+
+    </section>
+  </section>
+  <section id="bottom">
+    <section id="steps">
+      <image href="8.png" class ="step prime" />
+      <image href="8.png" class ="step" />
+      <image href="8.png" class ="step" />
+      <image href="8.png" class ="step" />
+      <image href="8.png" class ="step" />
+    </section>
+    <section id="cals">
+      <image href="8.png" class ="cal prime" />
+      <image href="8.png" class ="cal" />
+      <image href="8.png" class ="cal" />
+      <image href="8.png" class ="cal" />
+      <image href="8.png" class ="cal" />
+    </section>
+
+  </section>
 </svg>
