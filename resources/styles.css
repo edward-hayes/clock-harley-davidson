@@ -5,8 +5,117 @@
 #hd-outline {
   x:5%;
   y: 16%;
-  fill: orangered;
+  fill: #C73500;
   width: 90%;
   height: 68%;
   opacity: .8;
+}
+
+#flame {
+  x: 0;
+  y: 0;
+  fill: #5B7586;
+  opacity: .4;
+}
+
+#name {
+  x: 8%;
+  y: 41%;
+  width: 84%;
+  height: 17%;
+  fill: #611A00;
+  opacity: .9;
+}
+
+.watch-hand {
+  fill: white;
+  opacity: .7;
+}
+
+.major-tick {
+  x: $-1;
+  y: 125;
+  width: 3;
+  height: 20;
+  fill: white;
+  opacity: .6;
+}
+
+.minor-tick {
+  x: 0;
+  y: 125;
+  width: 1;
+  height: 22;
+  fill: white;
+  opacity: .6;
+}
+
+.min-tick {
+  x: 0;
+  y: 135;
+  width: 1;
+  height: 11;
+  fill: white;
+  opacity: .4;
+}
+
+#battery {
+  x: 2%;
+  y: 3%;
+}
+
+#distance {
+  x: $-45;
+  y: 96;
+  width: 65;
+  height: 25;
+  fill: white;
+  opacity: .4;
+}
+
+#fuel {
+  x: $-17;
+  y: 97;
+  width: 34;
+  height: 25;
+  fill: white;
+  opacity: .4;
+}
+
+.battery-icon {
+  height: 14;
+  width: 28;
+  fill: white;
+  opacity: .8;
+}
+
+#bottom {
+  x: 3;
+  y: 268;
+}
+
+.step {
+  x: $+1;
+  width: 14;
+  height: 29;
+  fill: orangered;
+}
+
+#cals {
+  x: 221;
+}
+
+.cal {
+  x: $+1;
+  width: 14;
+  height: 29;
+  fill: orangered;
+}
+
+.background {
+  opacity: .08;
+}
+
+.prime {
+  x: 0;
 }
