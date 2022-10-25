@@ -2,7 +2,14 @@
   <image id="flame" href="flame2.png" />
   <image id="hd-outline" href="harley_outline.png"/>
   <image id="name" href="harley_name.png" />
-  
+
+  <section id="section-date">
+        <image href="mon_1.png" id="mon"/>
+        <image href="8.png" class="date" />
+        <image href="8.png" class="date" />
+
+  </section>
+    
   <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
     <rect x="$-2" y="10" class="watch-hand" width="4" height="102" fill="white" />
   </g>
@@ -211,8 +218,8 @@
   </g>
   
   <section id="battery">
-    <image href="battery_full.png" class="battery-icon background" />
-    <image href="battery_20.png" class="battery-icon" />
+    <image href="battery_full.png" id="battery-icon-background" />
+    <image href="" id="battery-icon" />
     <section id="battery_percentage">
 
     </section>
@@ -234,4 +241,5 @@
     </section>
 
   </section>
+
 </svg>
