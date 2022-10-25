@@ -29,7 +29,7 @@
 
 .watch-hand {
   fill: white;
-  opacity: .7;
+  opacity: 1;
 }
 
 .major-tick {
@@ -64,6 +64,31 @@
   y: 3%;
 }
 
+#section-date {
+  x: 29%;
+  y: 26%;
+  width: 125;
+  height: 35;
+}
+
+#mon {
+  x: 2;
+  y: 0;
+  width: 62;
+  height: 35;
+  fill: white;
+  opacity: .7;
+}
+
+.date {
+  x: $+3;
+  y: 0;
+  width: 17;
+  height: 35;
+  fill: white;
+  opacity: .7;
+}
+
 #distance {
   x: $-45;
   y: 96;
@@ -82,16 +107,23 @@
   opacity: .4;
 }
 
-.battery-icon {
+#battery-icon {
   height: 14;
   width: 28;
   fill: white;
   opacity: .8;
 }
 
+#battery-icon-background {
+  height: 14;
+  width: 28;
+  fill: white;
+  opacity: .08;
+}
+
 #bottom {
   x: 3;
-  y: 268;
+  y: 275;
 }
 
 .step {

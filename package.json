@@ -4,11 +4,14 @@
   },
   "fitbit": {
     "appUUID": "5ecb9521-4d20-46fa-bddc-30d1d8792874",
-    "appType": "app",
+    "appType": "clockface",
     "appDisplayName": "Harley Clock",
     "iconFile": "resources/icon.png",
     "wipeColor": "#607d8b",
-    "requestedPermissions": [],
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
     "buildTargets": [
       "meson"
     ],
