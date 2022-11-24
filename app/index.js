@@ -10,6 +10,7 @@ import { today } from "user-activity";
 
 // battery elements
 let batteryIcon = document.getElementById("battery-icon");
+let elementsBat = document.getElementsByClassName("batt");
 
 // clock elements
 let hourHand = document.getElementById("hours");
@@ -29,7 +30,7 @@ let elementsCal = document.getElementsByClassName("cal");
 if (HeartRateSensor) {
   const hrm = new HeartRateSensor({ frequency: 1 });
   hrm.addEventListener("reading", () => {
-  util.setNumber(hrm.heartRate,elementsHR);
+  updateHR(hrm.heartRate,elementsHR);
   });
   hrm.start();
 
@@ -84,20 +85,27 @@ function updateCal(calories,elementsCal) {
   }
 }
 
+function updateHR(heartRate,elementsHR) {
+  var hrArray = String(heartRate).split("")
+  while (hrArray.length < 3) {
+    hrArray.unshift("blank")
+  }
+  for (let idx=0; idx < elementsHR.length; idx++) {
+    util.setImage(hrArray[idx],elementsHR[idx]);
+  }
+}
+
 function setDate(date) {
   let month = date.getMonth();
   let date = date.getDate();
   util.setImage(`mon_${month}`, mon);
-  util.setNumber(date,elementsDate);
-
   
   updateDateElem(date,elementsDate);
   
 }
 
 function updateDateElem(date,elementsDate) {
-  var dateArray = String(date).split("")
-  console.log(date)
+  var dateArray = String(date).split("");
   while (dateArray.length < 2) {
     dateArray.unshift("blank")
   }
@@ -108,6 +116,7 @@ function updateDateElem(date,elementsDate) {
 
 function updateBatLevel() {
   let batLevel = battery.chargeLevel;
+  // update icon
   if (batLevel == 100) {util.setImage('battery_full',batteryIcon);} else
   if (batLevel >= 80) {util.setImage('battery_80',batteryIcon);} else
   if (batLevel >= 60) {util.setImage('battery_60',batteryIcon);} else
@@ -115,6 +124,9 @@ function updateBatLevel() {
   if (batLevel >= 20) {util.setImage('battery_20',batteryIcon);} else
   if (batLevel < 20) {util.setImage('battery_low',batteryIcon);}
   
+  // update percentage
+  let batPercentage = util.zeroPad(batLevel) +'%';
+  util.setNumber(batPercentage,elementsBat);
 }
 
 // Returns an angle (0-360) for the current hour in the day, including minutes

@@ -64,6 +64,24 @@
   y: 3%;
 }
 
+#battery-percentage {
+  x: $+3;
+  y: 1;
+}
+
+.batt {
+  x: $+1;
+  y: 0;
+  height: 14;
+  width: 6;
+  fill: white;
+  
+}
+
+.percent-icon {
+  y: -2;
+}
+
 #section-date {
   x: 29%;
   y: 26%;
@@ -89,22 +107,29 @@
   opacity: .7;
 }
 
-#distance {
-  x: $-45;
-  y: 96;
-  width: 65;
-  height: 25;
+#rpm {
+  x: 28%;
+  y: 62%;
+  width: 33;
+  height: 20;
   fill: white;
-  opacity: .4;
+  opacity: .7;
 }
 
-#fuel {
-  x: $-17;
-  y: 97;
-  width: 34;
-  height: 25;
+#section-hr {
+  x: 37%;
+  y: 62%;
+  width: 100;
+  height: 45;
+}
+
+.hr {
+  x: $+3;
+  y: 0;
+  width: 22;
+  height: 50;
   fill: white;
-  opacity: .4;
+  opacity: .8;
 }
 
 #battery-icon {
@@ -124,6 +149,29 @@
 #bottom {
   x: 3;
   y: 275;
+}
+
+#bottom-labels {
+  x: 3;
+  y: 250;
+}
+
+#distance {
+  x: 0;
+  y: -3;
+  width: 36;
+  height: 30;
+  fill: white;
+  opacity: .4;
+}
+
+#fuel {
+  x: 260;
+  y: 0;
+  width: 34;
+  height: 25;
+  fill: white;
+  opacity: .4;
 }
 
 .step {
