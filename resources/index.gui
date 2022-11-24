@@ -3,11 +3,32 @@
   <image id="hd-outline" href="harley_outline.png"/>
   <image id="name" href="harley_name.png" />
 
+ 
+  <section id="battery">
+    <image href="battery_full.png" id="battery-icon-background" />
+    <image id="battery-icon" />
+ 
+    <section id="battery-percentage">
+        <image href="8.png" class="batt prime" />
+        <image href="8.png" class="batt" />
+        <image href="8.png" class="batt percent-icon" />
+    </section>
+  </section>
+  
+  
   <section id="section-date">
-        <image href="mon_1.png" id="mon"/>
-        <image href="8.png" class="date" />
-        <image href="8.png" class="date" />
+    <image id="mon"/>
+    <image class="date" />
+    <image class="date" />
 
+  </section>
+  <image id="rpm" href="rpm.png" />
+  <section id="section-hr">
+
+    <image class="hr" />
+    <image class="hr" />
+    <image class="hr" />
+      
   </section>
     
   <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
@@ -209,35 +230,27 @@
   <g transform="translate(50%,50%) rotate(174)">
     <rect class="min-tick"/>
   </g>
-  
-  <g transform="translate(50%,50%) rotate(34)">
-    <image id="distance" href="distance2.png" />
-  </g>
-  <g transform="translate(50%,50%) rotate(320)">
-    <image id="fuel" href="fuel2.png" />
-  </g>
-  
-  <section id="battery">
-    <image href="battery_full.png" id="battery-icon-background" />
-    <image href="" id="battery-icon" />
-    <section id="battery_percentage">
+ 
 
-    </section>
+
+  <section id="bottom-labels">
+    <image id="distance" href="trip.png" />
+    <image id="fuel" href="fuel2.png" />
   </section>
   <section id="bottom">
     <section id="steps">
-      <image href="8.png" class ="step prime" />
-      <image href="8.png" class ="step" />
-      <image href="8.png" class ="step" />
-      <image href="8.png" class ="step" />
-      <image href="8.png" class ="step" />
+      <image class ="step prime" />
+      <image class ="step" />
+      <image class ="step" />
+      <image class ="step" />
+      <image class ="step" />
     </section>
     <section id="cals">
-      <image href="8.png" class ="cal prime" />
-      <image href="8.png" class ="cal" />
-      <image href="8.png" class ="cal" />
-      <image href="8.png" class ="cal" />
-      <image href="8.png" class ="cal" />
+      <image class ="cal prime" />
+      <image class ="cal" />
+      <image class ="cal" />
+      <image class ="cal" />
+      <image class ="cal" />
     </section>
 
   </section>
