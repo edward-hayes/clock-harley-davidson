@@ -9,9 +9,10 @@
     <image id="battery-icon" />
  
     <section id="battery-percentage">
-        <image href="8.png" class="batt prime" />
-        <image href="8.png" class="batt" />
-        <image href="8.png" class="batt percent-icon" />
+        <image class="batt prime" />
+        <image class="batt" />
+        <image class="batt percent-icon" />
+        <image class="batt percent-icon" />
     </section>
   </section>
   
@@ -38,45 +39,46 @@
     <rect x="$-3" y="10" class="watch-hand" width="6" height="70" fill="white" />
   </g>
   
-  <g id="tick1" transform="translate(50%,50%) rotate(210)">
-    <rect class="minor-tick"/>
-  </g>
-  <g id="tick2" transform="translate(50%,50%) rotate(240)">
-    <rect class="minor-tick"/>
-  </g>
-  <g id="tick3" transform="translate(50%,50%) rotate(270)">
+  <g pointer-events="visible" transform="translate(50%,50%) rotate(180)">
     <rect class="major-tick"/>
   </g>
-  <g id="tick4" transform="translate(50%,50%) rotate(300)">
+  <g transform="translate(50%,50%) rotate(210)">
+    <rect class="minor-tick"  />
+  </g>
+  <g transform="translate(50%,50%) rotate(240)">
     <rect class="minor-tick"/>
   </g>
-  <g id="tick5" transform="translate(50%,50%) rotate(330)">
+  <g transform="translate(50%,50%) rotate(270)">
+    <rect class="major-tick" />
+  </g>
+  <g transform="translate(50%,50%) rotate(300)">
     <rect class="minor-tick"/>
   </g>
-  <g id="tick6" pointer-events="visible" transform="translate(50%,50%)">
+  <g transform="translate(50%,50%) rotate(330)">
+    <rect class="minor-tick"/>
+  </g>
+  <g pointer-events="visible" transform="translate(50%,50%)">
     <rect class="major-tick"/>
   </g>
-  <g id="tick7" transform="translate(50%,50%) rotate(30)">
+  <g transform="translate(50%,50%) rotate(30)">
     <rect class="minor-tick"/>
   </g>
-  <g id="tick8" transform="translate(50%,50%) rotate(60)">
+  <g transform="translate(50%,50%) rotate(60)">
     <rect class="minor-tick"/>
   </g>
-  <g id="tick9" pointer-events="visible" transform="translate(50%,50%) rotate(90)">
+  <g pointer-events="visible" transform="translate(50%,50%) rotate(90)">
     <rect class="major-tick"/>
   </g>
-  <g id="tick10" transform="translate(50%,50%) rotate(120)">
+  <g transform="translate(50%,50%) rotate(120)">
     <rect class="minor-tick"/>
   </g>
-  <g id="tick11" transform="translate(50%,50%) rotate(150)">
+  <g transform="translate(50%,50%) rotate(150)">
     <rect class="minor-tick"/>
   </g>
-  <g id="tick12" pointer-events="visible" transform="translate(50%,50%) rotate(180)">
-    <rect class="major-tick"/>
-  </g>
+
   
   <g transform="translate(50%,50%) rotate(186)">
-    <rect class="min-tick"/>
+    <rect class="min-tick" />
   </g>
   <g transform="translate(50%,50%) rotate(192)">
     <rect class="min-tick"/>
