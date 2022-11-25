@@ -1,0 +1,201 @@
+#main {
+  viewport-fill: #36454F;
+}
+
+#hd-outline {
+  x:5%;
+  y: 16%;
+  fill: #C73500;
+  width: 90%;
+  height: 68%;
+  opacity: .8;
+}
+
+#flame {
+  x: 0;
+  y: 0;
+  fill: #5B7586;
+  opacity: .4;
+}
+
+#name {
+  x: 8%;
+  y: 41%;
+  width: 84%;
+  height: 17%;
+  fill: #611A00;
+  opacity: .9;
+}
+
+.watch-hand {
+  fill: white;
+  opacity: 1;
+}
+
+.major-tick {
+  x: $-1;
+  y: 125;
+  width: 3;
+  height: 20;
+  fill: white;
+  opacity: .6;
+}
+
+.minor-tick {
+  x: 0;
+  y: 125;
+  width: 1;
+  height: 22;
+  fill: white;
+  opacity: .6;
+}
+
+.min-tick {
+  x: 0;
+  y: 135;
+  width: 1;
+  height: 11;
+  fill: white;
+  opacity: .4;
+}
+
+#battery {
+  x: 2%;
+  y: 3%;
+}
+
+#battery-percentage {
+  x: $+3;
+  y: 1;
+}
+
+.batt {
+  x: $+1;
+  y: 0;
+  height: 14;
+  width: 6;
+  fill: white;
+  
+}
+
+.percent-icon {
+  y: -2;
+}
+
+#section-date {
+  x: 29%;
+  y: 26%;
+  width: 125;
+  height: 35;
+}
+
+#mon {
+  x: 2;
+  y: 0;
+  width: 62;
+  height: 35;
+  fill: white;
+  opacity: .7;
+}
+
+.date {
+  x: $+3;
+  y: 0;
+  width: 17;
+  height: 35;
+  fill: white;
+  opacity: .7;
+}
+
+#rpm {
+  x: 28%;
+  y: 62%;
+  width: 33;
+  height: 20;
+  fill: white;
+  opacity: .7;
+}
+
+#section-hr {
+  x: 37%;
+  y: 62%;
+  width: 100;
+  height: 45;
+}
+
+.hr {
+  x: $+3;
+  y: 0;
+  width: 22;
+  height: 50;
+  fill: white;
+  opacity: .8;
+}
+
+#battery-icon {
+  height: 14;
+  width: 28;
+  fill: white;
+  opacity: .8;
+}
+
+#battery-icon-background {
+  height: 14;
+  width: 28;
+  fill: white;
+  opacity: .08;
+}
+
+#bottom {
+  x: 3;
+  y: 275;
+}
+
+#bottom-labels {
+  x: 3;
+  y: 250;
+}
+
+#distance {
+  x: 0;
+  y: -3;
+  width: 36;
+  height: 30;
+  fill: white;
+  opacity: .4;
+}
+
+#fuel {
+  x: 260;
+  y: 0;
+  width: 34;
+  height: 25;
+  fill: white;
+  opacity: .4;
+}
+
+.step {
+  x: $+1;
+  width: 14;
+  height: 29;
+  fill: orangered;
+}
+
+#cals {
+  x: 221;
+}
+
+.cal {
+  x: $+1;
+  width: 14;
+  height: 29;
+  fill: orangered;
+}
+
+.background {
+  opacity: .08;
+}
+
+.prime {
+  x: 0;
+}
